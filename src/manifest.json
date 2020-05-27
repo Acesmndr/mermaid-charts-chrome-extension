@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Mermaid Charts",
+	"version": "EXTENSION_VERSION",
+	"description": "Render mermaid charts on webpages",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "DateTime Formatter",
+    "default_icon": "assets/icons/icon128.png"
+  },
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "background":  {
+    "scripts": ["assets/background.js"],
+    "persistent": false
+  }
+}

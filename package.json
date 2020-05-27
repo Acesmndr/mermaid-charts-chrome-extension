@@ -1,0 +1,29 @@
+{
+  "name": "mermaid-charts-chrome-extension",
+  "version": "1.0.0",
+  "description": "Render mermaid charts in webpages",
+  "main": "index.js",
+  "author": "acesmndr",
+  "license": "MIT",
+  "scripts": {
+    "test": "",
+    "dev": "",
+    "version:show": "echo '\n\n\t\tThis Extension is currently in version '$(echo $npm_package_version)'\n\n'",
+    "version:upgrade": "echo '\n>###```version '$VERSION'```\n>* '$CHANGELOG >> changelog.md && yarn version --new-version $VERSION",
+    "build:development": "cross-env NODE_ENV=development webpack -w",
+    "build:production": "cross-env NODE_ENV=production webpack && mkdir build && zip -r build/datetime-formatter-v$npm_package_version-production.zip production"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "cross-env": "^5.2.0",
+    "mermaid": "^8.5.1",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
