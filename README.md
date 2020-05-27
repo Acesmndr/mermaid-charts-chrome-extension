@@ -39,8 +39,8 @@ Windows
 Clone this repository
 
 ```
-git clone git@github.com:Acesmndr/datetime-formatter-chrome-extension.git
-cd datetime-formatter-chrome-extension
+git clone git@github.com:Acesmndr/mermaid-charts-chrome-extension.git
+cd mermaid-charts-chrome-extension
 ```
 
 then install the project dependencies

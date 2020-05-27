@@ -7,7 +7,7 @@
     "activeTab"
   ],
   "browser_action": {
-    "default_title": "DateTime Formatter",
+    "default_title": "Render Mermaid Charts",
     "default_icon": "assets/icons/icon128.png"
   },
   "icons": {

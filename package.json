@@ -11,7 +11,7 @@
     "version:show": "echo '\n\n\t\tThis Extension is currently in version '$(echo $npm_package_version)'\n\n'",
     "version:upgrade": "echo '\n>###```version '$VERSION'```\n>* '$CHANGELOG >> changelog.md && yarn version --new-version $VERSION",
     "build:development": "cross-env NODE_ENV=development webpack -w",
-    "build:production": "cross-env NODE_ENV=production webpack && mkdir build && zip -r build/datetime-formatter-v$npm_package_version-production.zip production"
+    "build:production": "cross-env NODE_ENV=production webpack && mkdir build && zip -r build/mermaid-charts-v$npm_package_version-production.zip production"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
